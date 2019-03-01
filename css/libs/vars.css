@@ -1,0 +1,12 @@
+:root{
+    --font-color-banner:#ffffff;
+    --font-color-section:#333333;
+    --font-color-desrc:#666666;
+    --color-link:#ff4e50;
+    --color-icon-flask:#ffa507;
+    --color-icon-cup:#1cd7ad;
+    --color-icon-telegram:#4e73db;
+    font-size: 62.5%;
+    --main-font: Montserrat, serif;
+    --second-font: Roboto, serif;
+}

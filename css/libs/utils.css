@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.log-in,
+.sign-in,
+.logo,
+.header-banner,
+.descr-banner,
+.banner-link{
+    color: var(--font-color-banner);
+}
+.log-in,
+.sign-in,
+.logo,
+.header-banner,
+.banner-link,
+.section-header,
+.section-item-name,
+.section-link{
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.logo,
+.header-banner{
+    text-transform: uppercase;
+}
+
+.section-item-descr{
+    font-family: var(--second-font);
+    font-weight: 300;
+}
+.section-list{
+    list-style: none;
+}

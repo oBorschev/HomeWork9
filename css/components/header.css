@@ -1,0 +1,117 @@
+@import '../libs/vars.css';
+
+/* Header */
+
+.wrapper-banner{
+    background-image: url("../../img/bgr_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-height: 54rem;
+    /* width: 32rem; */
+    /* box-sizing: border-box; */
+}
+.log-in,
+.sign-in,
+.banner-link,
+.section-item-name,
+.section-item-descr,
+.section-link{
+    font-size: 1.4rem;
+}
+.log-in,
+.sign-in{
+    width: 9rem;
+    height: 3.6rem;
+    background-color: transparent;
+}
+.log-in{
+    border: none;
+}
+.sign-in{
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+}
+.logo{
+    font-size: 2rem;
+    margin-top: 11.5rem;
+}
+.header{
+    padding-top: 2rem;
+}
+.header-banner{
+    font-size: 3rem;
+    margin: 0;
+}
+.descr-banner{
+    font-size: 1.8rem;
+    font-family: var(--second-font);
+    font-weight: 300;
+    display: inline-block;
+}
+.banner-link,
+.section-link{
+    width: 28.1rem;
+    height: 4rem;
+    border-radius: 20px;
+    line-height: 40px;
+}
+.banner-link{
+    background-color: var(--color-link);
+}
+.log-in:hover,
+.sign-in:hover,
+.logo:hover,
+.logo:focus,
+.log-in:focus,
+.sign-in:focus{
+    color:  var(--font-color-descr);
+    border-color: var(--font-color-descr);
+}
+.log-in,
+.sign-in{
+    cursor: pointer;
+}
+.banner-link:hover{
+    background-color: var(--font-color-banner);
+    color: var(--color-link);
+}
+@media screen and (min-width:48em){
+    .wrapper-banner{
+        background-image: url("../../img/bgr_tablet.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70rem;
+    }
+    .logo{
+        margin: 0;
+    }
+    .header{
+        margin-bottom: 16rem;
+        padding-top: 4rem;
+    }
+    .header-banner{
+        font-size: 5.2rem;
+    }
+    .descr-banner{
+        font-size: 2.2rem;
+        margin: 4rem 0 3.2rem 0;
+    }
+    .navigation{
+        display: flex;
+    }
+    .banner-link{
+        width: 22.8rem;
+    }
+}
+
+@media screen and (min-width:60em){
+    .wrapper-banner{
+        background-image: url("../../img/bgr_desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header{
+        margin-bottom: 14.4rem;
+    }
+}
