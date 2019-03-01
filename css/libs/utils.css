@@ -48,3 +48,6 @@ a:hover{
 .section-list{
     list-style: none;
 }
+.container{
+    padding: 0;
+}
