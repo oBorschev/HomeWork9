@@ -97,4 +97,7 @@
     .section-item{
         margin: 0;
     }
+    .section-item{
+        width: 22rem;
+    }
 }
