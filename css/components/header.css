@@ -46,8 +46,8 @@
 }
 .descr-banner{
     font-size: 1.8rem;
-    font-family: var(--second-font);
-    font-weight: 300;
+    /* font-family: var(--second-font);
+    font-weight: 300; */
     display: inline-block;
 }
 .banner-link,

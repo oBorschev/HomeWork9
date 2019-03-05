@@ -9,6 +9,8 @@ html{
 *{
     margin: 0;
     padding: 0;
+    /* font-family: var(--main-font);
+    font-weight: 700; */
 }
 .log-in,
 .sign-in,
@@ -41,7 +43,8 @@ a:hover{
     text-transform: uppercase;
 }
 
-.section-item-descr{
+.section-item-descr
+.descr-banner{
     font-family: var(--second-font);
     font-weight: 300;
 }
